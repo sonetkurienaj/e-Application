@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  background-color:rgb(214, 222, 224);;
+}
+.app{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+transform: translate(-50%);
+  height: 430px;
+  width: 300px;
+  background-color: rgb(194, 154, 21);
+}
+h1{
+  position: absolute;
+  top: 40px;
+  left: 88px;
+  background-color: rgb(192, 179, 135);
+  
+}
+span{
+  background-color: rgb(192, 179, 135);
+  color:rgba(231, 23, 16, 0.281);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.signup-section{
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  background-color: rgb(194, 154, 21);
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+h3{
+  background-color:  rgb(194, 154, 21);
+  };
